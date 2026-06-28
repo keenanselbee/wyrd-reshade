@@ -1,0 +1,90 @@
+[heading][color=#8ECFFB]Description[/color][/heading]
+Wyrd ReShade is a performance-friendly dark fantasy preset that pulls Skyrim back toward its vanilla cold northern palette.
+
+That is the main appeal: it makes Skyrim look like Skyrim. It leans into a darker, cooler image with a blue-purple tint, measured vibrance, and adaptive ambient light around brighter areas.
+
+The preset focuses on tone, colour, exposure, black point, ambient light, and subtle film response. The result is crisp, moody, readable Skyrim without turning the game into something overly warm, soft, or modern-looking. Fully equipped for the slaying of dragons.
+
+
+[heading][color=#8ECFFB]Features[/color][/heading]
+[list]
+[*]Performance-friendly dark fantasy ReShade preset.[/*]
+[*]Restores a colder vanilla-Skyrim colour palette.[/*]
+[*]Darkens and cools the image while keeping it readable.[/*]
+[*]Adds measured vibrance and adaptive ambient light.[/*]
+[*]Uses subtle filmic contrast, levels, and tone mapping.[/*]
+[*]Included shader folder so the preset can find the effects it needs.[/*]
+[*]Configured for Skyrim with paths you can point at your own install location.[/*]
+[/list]
+
+
+[heading][color=#8ECFFB]Installation[/color][/heading]
+[list=1]
+[*]Download and run [url=https://reshade.me/]ReShade[/url].[/*]
+[*]When the installer asks for a game, select [b]SkyrimSE.exe[/b] in your Skyrim directory.[/*]
+[*]Choose the [b]DirectX 10/11/12[/b] rendering API.[/*]
+[*]Finish the ReShade install.[/*]
+[*]Install or copy this mod's files into your Skyrim directory, not the Data folder.[/*]
+[*]Open [b]ReShade.ini[/b] and replace every [b]1234[/b] with your Skyrim directory.[/*]
+[/list]
+
+Your Skyrim directory is the folder that contains [b]SkyrimSE.exe[/b].
+
+For a normal Skyrim install, this is usually the expected Steam path:
+
+[b]C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition[/b]
+
+For a Wabbajack modlist that uses a [b]Stock Game[/b] folder, the [b]Stock Game[/b] folder is your Skyrim directory. Use the folder that contains the modlist's copy of [b]SkyrimSE.exe[/b].
+
+Wabbajack example:
+
+[b]G:\Modding\LoreRim\Stock Game[/b]
+
+Example:
+
+[b]1234[/b]
+
+becomes:
+
+[b]G:\Modding\LoreRim\Stock Game[/b]
+
+Keep the rest of each path after [b]1234[/b] unchanged.
+
+Example:
+
+[b]CurrentPresetPath=1234\Wyrd.ini[/b]
+
+becomes:
+
+[b]CurrentPresetPath=G:\Modding\LoreRim\Stock Game\Wyrd.ini[/b]
+
+
+[heading][color=#8ECFFB]Expected File Layout[/color][/heading]
+After installation, these files and folders should be in the same folder as [b]SkyrimSE.exe[/b]:
+
+[list]
+[*][b]ReShade.ini[/b][/*]
+[*][b]Wyrd.ini[/b][/*]
+[*][b]reshade-shaders\Shaders[/b][/*]
+[*][b]reshade-shaders\Textures[/b][/*]
+[/list]
+
+If you use Mod Organizer 2 with a root-folder deployment method, make sure the files are deployed to the Skyrim directory. For Wabbajack Stock Game setups, that means the [b]Stock Game[/b] folder. They should not end up inside [b]Data[/b].
+
+
+[heading][color=#8ECFFB]Use[/color][/heading]
+Launch Skyrim normally after installing ReShade and updating the paths in [b]ReShade.ini[/b].
+
+Open the ReShade overlay in game with [b]Home[/b] if you need to confirm that [b]Wyrd.ini[/b] is selected.
+
+
+[heading][color=#8ECFFB]Troubleshooting[/color][/heading]
+[list]
+[*]If the preset does not load, recheck that every [b]1234[/b] in [b]ReShade.ini[/b] was replaced.[/*]
+[*]If shaders are missing, confirm that [b]reshade-shaders[/b] is in the Skyrim directory.[/*]
+[*]If ReShade does not open in game, rerun the [url=https://reshade.me/]ReShade installer[/url] and confirm that it was installed for [b]SkyrimSE.exe[/b].[/*]
+[/list]
+
+
+[heading][color=#8ECFFB]Credits[/color][/heading]
+Wyrd ReShade was made by Keenan Selbee.
